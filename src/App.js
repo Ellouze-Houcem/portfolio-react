@@ -15,11 +15,11 @@ function App() {
         <Navbar />
         <Themes/>
         <Routes>
-          <Route path='portfolio-Website' index element={<Home/>}/>
-          <Route path='about' element={<About/>} />
-          <Route path='portfolio' element={<Protfolio/>} />
-          <Route path='contact' element={<Contact/>} />
-          <Route path='*' element={<NotFound/>} />
+          <Route path='/portfolio-Website' index element={<Home/>}/>
+          <Route path='/portfolio-Website/about' element={<About/>} />
+          <Route path='/portfolio-Website/portfolio' element={<Protfolio/>} />
+          <Route path='/portfolio-Website/contact' element={<Contact/>} />
+          <Route path='/portfolio-Website/*' element={<NotFound/>} />
         </Routes>
       </Router>
   )
