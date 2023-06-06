@@ -15,7 +15,7 @@ function App() {
         <Navbar />
         <Themes/>
         <Routes>
-          <Route path='/portfolio-Website' index element={<Home/>}/>
+        <Route path='/portfolio-Website' index element={<Home/>}/>
           <Route path='/portfolio-Website/about' element={<About/>} />
           <Route path='/portfolio-Website/portfolio' element={<Protfolio/>} />
           <Route path='/portfolio-Website/contact' element={<Contact/>} />
