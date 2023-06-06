@@ -22,28 +22,28 @@ export const links = [
     id: 1,
     name: 'Home',
     icon: <FaHome className='nav__icon' />,
-    path: '/portfolio-react',
+    path: '/',
   },
 
   {
     id: 2,
     name: 'About',
     icon: <FaUser className='nav__icon' />,
-    path: '/portfolio-react/about',
+    path: '/about',
   },
 
   {
     id: 3,
     name: 'Projects',
     icon: <FaFolderOpen className='nav__icon' />,
-    path: '/portfolio-react/portfolio',
+    path: '/portfolio',
   },
 
   {
     id: 4,
     name: 'Contact',
     icon: <FaEnvelopeOpen className='nav__icon' />,
-    path: '/portfolio-react/contact',
+    path: '/contact',
   },
 ];
 
