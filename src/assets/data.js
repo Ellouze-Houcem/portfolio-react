@@ -22,7 +22,7 @@ export const links = [
     id: 1,
     name: 'Home',
     icon: <FaHome className='nav__icon' />,
-    path: '/portfolio-Website/',
+    path: '/portfolio-Website',
   },
 
   {
