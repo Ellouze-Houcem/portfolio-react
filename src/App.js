@@ -15,7 +15,7 @@ function App() {
         <Navbar />
         <Themes/>
         <Routes>
-          <Route index element={<Home/>}/>
+          <Route path='portfolio-react' index element={<Home/>}/>
           <Route path='about' element={<About/>} />
           <Route path='portfolio' element={<Protfolio/>} />
           <Route path='contact' element={<Contact/>} />
