@@ -1,0 +1,43 @@
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--title-color);
+    z-index: 2000;
+    animation: opacity 2s cubic-bezier(1,-0.01,.33,1.12);
+}
+
+
+.loader::after{
+    content: '';
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 15px solid var(--border-color);
+    border-top-color: var(--first-color);
+    animation: laoding 2s cubic-bezier(.2,.21,1,.99) infinite;
+}
+
+
+@keyframes laoding {
+    from {
+        transform: rotate(0turn);
+    }
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+@keyframes opacity {
+    from {
+        opacity: 2;
+    }
+    to {
+        opacity: 0;
+    }
+}

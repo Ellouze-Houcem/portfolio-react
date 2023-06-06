@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+*,
+*:after,
+*:before{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--body-color);
+    font-family: 'Montserrat',sans-serif;
+}
+
+
+.not-found{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+}
+
+.not-found h1{
+    color: var(--title-color);
+    font-size: 12.5rem;
+    letter-spacing: .10em;
+    margin: .025em 0;
+    text-shadow: .05em .05em 0 rgba(0, 0, 0, .25);
+    white-space: nowrap;
+
+
+    @media(max-width:30rem){
+        font-size: 8.5rem;
+    }
+
+    & > span {
+        animation: spooky 2s alternate infinite linear;
+        color: var(--first-color);
+        display: inline-block;
+    }
+}
+
+h2{
+    color: var(--title-color);
+    margin-bottom: .40rem;
+}
+
+p {
+    color: var(--text-color);
+    margin-top: 0;
+}
+
+@keyframes spooky {
+    from {
+        transform: translateY(.15em) scaleY(.95);
+    }
+}
+
+
+.not-found a{
+    text-decoration: none;
+    background: var(--first-color);
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
