@@ -16,10 +16,10 @@ function App() {
         <Themes/>
         <Routes>
           <Route path='/portfolio-react' index element={<Home/>}/>
-          <Route path='/portfolio-react/about' element={<About/>} />
-          <Route path='/portfolio-react/portfolio' element={<Protfolio/>} />
-          <Route path='/portfolio-react/contact' element={<Contact/>} />
-          <Route path='/portfolio-react/*' element={<NotFound/>} />
+          <Route path='/about' element={<About/>} />
+          <Route path='/portfolio' element={<Protfolio/>} />
+          <Route path='/contact' element={<Contact/>} />
+          <Route path='/*' element={<NotFound/>} />
         </Routes>
       </Router>
   )
