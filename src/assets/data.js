@@ -22,7 +22,7 @@ export const links = [
     id: 1,
     name: 'Home',
     icon: <FaHome className='nav__icon' />,
-    path: '/portfolio-react',
+    path: '/',
   },
 
   {
@@ -105,7 +105,7 @@ export const personalInfo = [
   {
     id: 10,
     title: 'Langages : ',
-    description: 'Arabic, French, English',
+    description: 'Arabic, French, English,Spanish'
   },
 ];
 
