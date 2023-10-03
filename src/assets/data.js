@@ -15,14 +15,14 @@ import Work2 from '../assets/chiff.png';
 import Work3 from '../assets/compte-est-bon.jpg';
 import Work4 from '../assets/chess-gam.png';
 import Work5 from '../assets/portfolio11.png';
-//import Work6 from '../assets/project-6.jpg';
+import Work6 from '../assets/DashboardPage.jpg';
 
 export const links = [
   {
     id: 1,
     name: 'Home',
     icon: <FaHome className='nav__icon' />,
-    path: '/',
+    path: 'portfolio-react',
   },
 
   {
@@ -164,15 +164,21 @@ export const resume = [
     desc: 'realization of development projects',
   },
 
+  {
+    id: 3,
+    category: 'education',
+    icon: <FaGraduationCap />,
+    year: '2023 - PRESENT',
+    title: "Research master's degree in Smart Systems <span> National School of Computer Sciences </span>",
+    desc: 'ENSI, Manouba, Tunisia',
+  },
   
-
-
   {
     id: 4,
     category: 'education',
     icon: <FaGraduationCap />,
     year: '2021 - PRESENT',
-    title: 'Engineering computer Science <span> National School of Computer Sciences </span>',
+    title: "Engineering computer Science <span> National School of Computer Sciences </span>",
     desc: 'ENSI, Manouba, Tunisia',
   },
 
@@ -240,7 +246,7 @@ export const skills = [
   {
     id: 5,
     title: 'Node.JS',
-    percentage: '20',
+    percentage: '40',
   },
 
   {
@@ -260,11 +266,45 @@ export const skills = [
     title: 'PL/SQL',
     percentage: '80',
   },
+
+  {
+    id: 10,
+    title: 'React Native',
+    percentage: '60',
+  },
+
+  {
+    id: 11,
+    title: 'PostgreSQL',
+    percentage: '50',
+  },
 ];
 
 export const portfolio = [
   {
     id: 1,
+    img: Work6,
+    title: 'Notify',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Application Mobile',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React native, Bootstrap, Javascript, NodeJS, Postgresql, Firebase',
+      },
+      {
+        icon: <FaParagraph />,
+        title: 'Details : ',
+        desc: 'It is a mobile application dedicated to alert management. This application continuously monitors generated maintenance tickets and sends instant notifications to relevant users to enhance responsiveness.',
+      },
+    ],
+  },
+  {
+    id: 2,
     img: Work1,
     title: 'Rápido',
     details: [
@@ -287,7 +327,7 @@ export const portfolio = [
   },
 
   {
-    id: 5,
+    id: 6,
     img: Work5,
     title: 'Portfolio',
     details: [
@@ -310,7 +350,7 @@ export const portfolio = [
   },
 
   {
-    id: 2,
+    id: 3,
     img: Work2,
     title: 'File Encryption Application',
     details: [
@@ -333,7 +373,7 @@ export const portfolio = [
   },
 
   {
-    id: 3,
+    id: 4,
     img: Work3,
     title: 'Le Compte Est Bon',
     details: [
@@ -356,7 +396,7 @@ export const portfolio = [
   },
 
   {
-    id: 4,
+    id: 5,
     img: Work4,
     title: 'Chess game',
     details: [
@@ -379,32 +419,6 @@ export const portfolio = [
   },
 
   
-/*
-  {
-    id: 6,
-    img: Work6,
-    title: 'Photo Editing',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Photo',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Photoshop',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dibble.com',
-      },
-    ],
-  },*/
+
+  
 ];

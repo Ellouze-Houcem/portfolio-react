@@ -14,13 +14,11 @@ const Home = () => {
       <div className="home__content">
         <div className="home__data">
           <h1 className="home__title">
-            <span >I'm Ellouze Mohamed Houcem.</span> Web Developer
+            <span >I'm Ellouze Mohamed Houcem.</span> Computer science student
           </h1>
 
           <p className="home__description">
-          Currently a student in the second year of the computer engineering 
-          cycle at National School of Computer Science with a specialty in 
-          embedded software systems.
+          Currently a third year student in the computer engineering cycle at the National School of Computer Sciences (ENSI), with a specialization in embedded software systems, I am also enrolled in a research master's degree in intelligent systems at ENSI
           </p>
 
           <Link to='/about' className='button' >
